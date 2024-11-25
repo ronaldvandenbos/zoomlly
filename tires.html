@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoomlly Tires - Your Trusted Tire Shop</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background-image: url('./img/tires-banner.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .sales-banner {
+            background-color: #ff5733;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 1.25rem;
+        }
+        .highlight-card {
+            border: none;
+            background-color: rgba(245, 245, 245, 0.9);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product-card img {
+            max-height: 150px;
+            object-fit: contain;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Zoomlly Tires</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sales">Sales</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="btn btn-primary ms-2" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sales Banner -->
+    <div class="sales-banner">
+        Huge Sale: Up to 50% off select tires! Hurry, offer ends soon!
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Welcome to Zoomlly Tires</h1>
+            <p>Your one-stop shop for quality tires at unbeatable prices.</p>
+            <a href="#products" class="btn btn-primary btn-lg mt-3">Shop Tires</a>
+            <a href="#sales" class="btn btn-outline-light btn-lg mt-3">View Sales</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Products</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="./img/tire1.jpg" class="card-img-top" alt="Tire 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">All-Season Tire</h5>
+                            <p class="card-text">Perfect for year-round performance.</p>
+                            <p class="text-success">$89.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="./img/tire2.jpg" class="card-img-top" alt="Tire 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Winter Tire</h5>
+                            <p class="card-text">Exceptional grip for snowy conditions.</p>
+                            <p class="text-success">$129.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="./img/tire3.jpg" class="card-img-top" alt="Tire 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Performance Tire</h5>
+                            <p class="card-text">Built for speed and precision handling.</p>
+                            <p class="text-success">$159.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">What Our Customers Say</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p>"Zoomlly Tires transformed my driving experience. Excellent service!"</p>
+                        <footer class="blockquote-footer">John D.</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p>"Great prices and amazing quality. Highly recommend!"</p>
+                        <footer class="blockquote-footer">Sarah K.</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p>"Fast and friendly service. I'm a loyal customer now."</p>
+                        <footer class="blockquote-footer">Mike L.</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script data-apikey="tuHTRyEYSo6X9adz_hJJrw" data-env="us01" src="https://us01ccistatic.zoom.us/us01cci/web-sdk/zcc-sdk.js"></script>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Zoomlly Tires. All Rights Reserved.</p>
+            <p><a href="#contact" class="text-light">Contact Us</a> | <a href="#sales" class="text-light">View Sales</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
